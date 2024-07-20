@@ -17,7 +17,7 @@ def get_api_key():
         return st.secrets["openai_api_key"] if "openai_api_key" in st.secrets else None
 
 # Set your OpenAI API key
-api_key = "sk-None-QyMVE66IlLxu49ZfRo6KT3BlbkFJUZp6EvCaTfdbrViZuKml"
+api_key = "your api key"
 
 if api_key:
     openai.api_key = api_key
